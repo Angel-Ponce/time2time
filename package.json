@@ -1,0 +1,44 @@
+{
+  "name": "time2time",
+  "version": "1.0.0",
+  "description": "Simple utilities to handle time conversions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angel-Ponce/time2time.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "time",
+    "typescript",
+    "helper",
+    "units",
+    "conversion"
+  ],
+  "author": "Angel Ponce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angel-Ponce/time2time/issues"
+  },
+  "homepage": "https://github.com/Angel-Ponce/time2time#readme",
+  "devDependencies": {
+    "@types/jest": "30.0.0",
+    "jest": "30.2.0",
+    "ts-jest": "29.4.6",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {}
+}
