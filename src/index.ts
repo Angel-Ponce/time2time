@@ -1,4 +1,4 @@
-import TimeMoment from "./time-moment";
+import { TimeMoment } from "./time-moment";
 
 const NanoSeconds = new TimeMoment("ns", 1, null);
 
@@ -18,8 +18,8 @@ const Weeks = new TimeMoment("week", 7, Days);
 
 const TimeUnits = {
   ns: NanoSeconds,
-  ms: MilliSeconds,
   us: MicroSeconds,
+  ms: MilliSeconds,
   sec: Seconds,
   min: Minutes,
   hr: Hours,

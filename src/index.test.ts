@@ -1,11 +1,12 @@
+import { describe, expect, test } from "@jest/globals";
 import {
-  nanoSeconds,
+  days,
+  hours,
   microSeconds,
   milliSeconds,
-  seconds,
   minutes,
-  hours,
-  days,
+  nanoSeconds,
+  seconds,
   weeks,
 } from "./index";
 

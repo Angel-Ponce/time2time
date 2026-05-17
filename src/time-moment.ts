@@ -1,4 +1,4 @@
-export default class TimeMoment {
+export class TimeMoment {
   unit: string;
   multiplier: number;
   before: TimeMoment | null;
