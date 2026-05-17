@@ -29,6 +29,8 @@ const TimeUnits = {
 
 export type TimeUnit = keyof typeof TimeUnits;
 
+export const TIME_UNITS = Object.keys(TimeUnits) as TimeUnit[];
+
 export type TimeConverter = (value: number) => {
   value: number;
   to: (unit: TimeUnit) => number;
