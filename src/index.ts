@@ -16,7 +16,7 @@ const Days = new TimeMoment("day", 24, Hours);
 
 const Weeks = new TimeMoment("week", 7, Days);
 
-const TimeUnits = {
+export const TimeUnits = {
   ns: NanoSeconds,
   us: MicroSeconds,
   ms: MilliSeconds,
